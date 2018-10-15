@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <title>其他标记</title>
+        </head>
+        <body>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原本<i>分叉的提交</i>现在变成一条直线了！这种神奇的操作是怎么实现的？其实原理非常简单。我们注意观察，发现Git把我们本地的提交“挪动”了位置，放到了f005ed4 (origin/master) set exit=1之后，这样，整个<b>提交历史</b>就成了一条直线。rebase操作前后，最终的提交内容是一致的，但是，我们本地的commit修改内容已经变化了，它们的<strong>修改</strong>不再基于d1be385 init hello，而是基于f005ed4 (origin/master) set exit=1，但<em>最后的提交</em>7e61ed4内容是一致的</p>
+                <hr />
+                <s>hello</s>
+                <u>下划线</u>
+                2<sup>5</sup>
+                log<sub>2</sub>
+                a &gt; b &copy; &reg;
+        </body>
+</html>
