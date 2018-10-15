@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>样式</title>
+        <style type="text/css">
+                /* 选择器 */
+                /* css中的注释 */
+                /* 标签选择器：所有写在<>中的标记我们都可以作为标签选择器 */
+                img{
+                        width: 200px;
+                        border: 5px solid aqua;
+                }
+                /* class选择器，类选择器，使用“.”进行标识 */
+                .red{
+                        border:5px solid red;
+                }
+                /* 语法：
+                        在style标签中声明，
+                        .demo{
+                                属性1:属性值1;
+                                属性2:属性值2;
+                        }
+                        在html中需要引用
+                        <标记 class="demo"></标记>
+                */
+                
+                /* id选择器 ，唯一标识不能重复，不能使用关键字来进行命名，使用“#”来进行标识 */
+                /* 语法：
+                        在style标签中声明，
+                        #demo{
+                                属性1:属性值1;
+                                属性2:属性值2;
+                        }
+                        在html中需要引用
+                        <标记 id="demo"></标记>
+                */
+                #colorpink{
+                        border: 5px solid pink;
+                }
+        </style>
+</head>
+<body>
+        css语法：
+        选择器名{
+                属性1:属性值1;
+                属性2:属性值2;
+        }
+        <!--style：内联样式-->
+        <img src="img/命运石之门.jpeg" />
+        <img src="img/命运石之门.jpeg" />
+        <img src="img/命运石之门.jpeg" />
+        <div>
+                <img class="red" src="img/a.jpg" />
+                <img id="colorpink" src="img/b.jpg" />
+        </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <title>表格</title>
+</head>
+<body>
+        表格的作用：
+        对我们的数据进行格式化，使我们的数据显示更加清晰
+        <!--表格：两行两列-->
+        标签：
+        table：表格
+        tr：代表一行
+        td：代表一个单元格
+        th：代表一个单元格【有默认的样式，一般作为列标题】
+        caption：表格标题
+        
+        常用属性：
+        border：设置边框宽度【一定要给】
+        width：指定表格宽度【一定要给】
+        height：指定表格高度【一般给tr】
+        bordercolor：边框颜色
+        cellspacing：设置单元格与单元格之间的距离
+        
+        align：默认left，取值left，center，right
+        给table添加align，指的是整个表格的移动，默认居左，使用center，则整个表格居中，使用right，整个表格居右
+        给tr添加align，指的是整行表格的内容的排列，使用center，整行内容居中，使用right则居右
+        给td添加align，指的是当前单元格内容的排列，与tr类似
+        
+        <table align="center" border="1" width="200" bordercolor="red" cellspacing="0">
+                <caption>1805成绩单</caption>
+                <tr height="50">
+                        <th>姓名</th>
+                        <th>分数</th>
+                </tr>
+                <tr height="50">
+                        <td align="center" style="font-weight: bolder">张三</td>
+                        <td>60</td>
+                </tr>
+        </table>
+</body>
+</html>
